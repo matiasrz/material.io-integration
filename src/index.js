@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import TopBar from 'MDComponents/TopBar';
 
 ReactDOM.render(
-    <h1>Hello World</h1>,
+  <TopBar />,
   document.getElementById('app')
 );

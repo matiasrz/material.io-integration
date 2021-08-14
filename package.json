@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/matiasrz/material.io-integration#readme",
   "dependencies": {
+    "@material/icon-button": "^12.0.0",
+    "@material/top-app-bar": "^12.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },

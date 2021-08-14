@@ -63,7 +63,7 @@ module.exports = {
     extensions: ['*', '.js', '.jsx'],
     alias: {
       // Images: path.resolve(__dirname, 'src/assets/images/'),
-      // MDComponents: path.resolve(__dirname, 'src/components/MaterialDesign/')
+      MDComponents: path.resolve(__dirname, 'src/components/MaterialDesign/')
     }
   },
   output: {

@@ -12,3 +12,6 @@ npm i -s react react-dom
 npm i -D css-loader sass-loader sass extract-loader file-loader mini-css-extract-plugin
 npm i -D autoprefixer postcss-loader url-loader
 npm i -D @material/drawer @material/top-app-bar @material/shape @material/density
+
+# GOAL
+https://reina.qodeinteractive.com/landing/
