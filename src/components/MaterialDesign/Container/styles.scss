@@ -1,0 +1,22 @@
+@use 'sass:map';
+
+@use "@material/top-app-bar/_variables" as app-bar-vars;
+@use "@material/layout-grid/_variables" as layout-vars;
+@use "@material/layout-grid/mdc-layout-grid";
+
+.img-testing {
+  background-color: red;
+  height: calc(100vh - #{app-bar-vars.$row-height});
+}
+
+.mdc-layout-grid {
+  padding: 0px #{map.get(layout-vars.$default-margin, 'desktop')}
+}
+
+
+@media (max-width: #{app-bar-vars.$mobile-breakpoint}) {
+  .img-testing {
+    height: calc(100vh - #{app-bar-vars.$mobile-row-height});
+  }
+
+}
